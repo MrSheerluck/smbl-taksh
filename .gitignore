@@ -1,0 +1,24 @@
+# Rust build artifacts
+/target/
+
+# Local design, learning, and progress docs.
+# Deliberately not pushed: only README.md is public documentation.
+/docs/
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+
+# Coverage and profiling artifacts
+*.profraw
+*.profdata
+lcov.info

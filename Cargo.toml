@@ -1,0 +1,20 @@
+[package]
+name = "taksh"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A Rust AI agent toolkit and coding agent inspired by Pi."
+license = "MIT"
+readme = "README.md"
+documentation = "https://docs.rs/taksh"
+repository = "https://github.com/MrSheerluck/smbl-taksh"
+keywords = ["ai", "agent", "llm", "cli", "coding-agent"]
+categories = ["command-line-utilities", "development-tools"]
+publish = true
+# .gitignore does not affect `cargo package`; keep local docs out explicitly.
+exclude = ["docs/**"]
+
+[workspace]
+resolver = "3"
+
+[dependencies]
